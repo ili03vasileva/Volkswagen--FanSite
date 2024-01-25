@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devise-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Volkswagen</title>
+    <!--квадратни иконки-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!--навигационнен бар-->
+<header>
+<!--контейнер за навигационното меню -->
+    <div class = "nav container">
+        <!--Иконка заа менюто -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--Вкарване на лого/слоган, който да седи в хедъра -->
+        <a href = "#" class = "logo">Volkswagen<br>Das Auto</a>
+        <!--лист на навигацията -->
+        <ul class="navbar">
+            <li><a href = "#home" class = "active">Home</a></li>
+            <li><a href = "#models">Models</a></li>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#history">History</a></li>
+            <li><a href = "#contacts">Contacts</a></li>
+        </ul>
+        <!--имплементиране на иконка за меню за търсене-->
+        <i class='bx bx-search' id="search-icon"></i>
+        <!--иконка за сърч бар-->
+        <div class="search-box container">
+            <input type="search" id="searchInput" placeholder="Search here">
+
+        </div>
+    </div>
+</header>
+<section class="home" id="home">
+<div class="home-text">
+    <h1>Fulfilling <br> Your <span> Every</span> Need</h1>
+    <p>2018 Volkswagen Golf VII <br> GTI Performance 2.0 TSI (245 h.p.) DSG OPF</p>
+    <!--home бутонче-->
+    <a href="https://www.volkswagen.bg/" class="btn">Discover Now!</a>
+</div>
+</section>
+<!--Опцията за модеки в менюто-->
+<section class="models" id="models">
+    <div class="heading">
+        <span> Best models</span>
+        <h2>The combination of great design and functionality.</h2>
+        <p>There is something for everyone!</p>
+    </div>
+    <!--Контейнер за моделите-->
+    <div class = "models-container container">
+        <!--Кутия 1-->
+        <div class="box">
+            <img src="https://images.prismic.io/carwow/68a6fb12-1796-48c0-9b7d-c29fdc4cdea0_2020+Volkswagen+Up+front+quarter+moving.jpg" alt="">
+            <h2>Up</h2>
+
+        </div>
+        <!--Кутия 2-->
+        <div class="box">
+            <img src="https://www.hdcarwallpapers.com/walls/volkswagen_polo_gti_2018_4k-HD.jpg" alt="">
+            <h2>Polo</h2>
+
+        </div>
+        <!--Кутия 3-->
+        <div class="box">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1d72b78706893.5635a376b8c2b.jpg" alt="">
+            <h2>Golf</h2>
+        </div>
+            <!--Кутия 4-->
+            <div class="box">
+                <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2017-Volkswagen-Arteon-206TSI-R-1200x800p-1.jpg" alt="">
+                <h2>Arteon</h2>
+
+            </div>
+            <!--Кутия 5-->
+            <div class="box">
+                <img src="https://i.ytimg.com/vi/j-62xDRgkRw/maxresdefault.jpg" alt="">
+                <h2>Tiguan</h2>
+
+            </div>
+            <!--Кутия 6-->
+            <div class="box">
+                <img src="https://res.cloudinary.com/dk-media/image/upload/v1690322436/gutefahrt/gfsl-20230623-202307-new-img_f06dc8370a94d04e0bcc1cfb9d01404e.jpg" alt="">
+                <h2>Tuareg</h2>
+
+            </div>
+            </div>
+</section>
+<!--Менюто за about-->
+<section class="about container" id="about">
+    <img src="https://www.chicagotribune.com/resizer/08bvFEu_rdw05agJ6DPIBzBpVcw=/1024x0/filters:format(jpg):quality(70)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/7S7BBAENANGQBIDCCNRERLTM5Y.jpg" alt="">
+    <div class ="about-text">
+    <span> About us</span>
+    <h2>Quality cars with reasonable prices</h2>
+    <p>Volkswagen is more than just a car brand; it's a lifestyle. With a legacy spanning decades, Volkswagen has become a symbol of reliability, innovation, and driving pleasure. Join us on a journey through the decades as we explore the evolution of Volkswagen and the impact it has had on the automotive world.</p>
+
+    <!--Функциониране на копчето за about-->
+<a href="#" class="btn" onclick="openWikiVolkswagen()">Learn More</a>
+    </div>
+</section>
+<!--Частта с историята-->
+<section class="history" id="history">
+    <div class="heading">
+        <span>The history began in 1937...</span>
+        <h2>Wolfsburg, Lower Saxony, Germany.</h2>
+        <p>Volkswagen is a German automobile manufacturer headquartered in Wolfsburg,LowerSaxony,Germany.Founded in 1937 by the German Labour Front under the Nazi Party and revived into a global brand after World WarII by the British Army officer Ivan Hirst, it is known for the iconic Beetle and serves as the flagship brand of the Volkswagen Group,the largest automotive manufacturer by worldwide sales in 2016 and 2017.The group's biggest market is in China,which delivers 40 percent of its sales and profits.Its name is derived from the German-language terms VolkandWagen, translating to "people'scar" when combined.</p>
+    </div>
+    <!--Контейнер за историята-->
+    <div class="history-container container">
+        <div class="box">
+            <img src="https://cdn.dealeraccelerate.com/lm/1/225/16631/1920x1440/1967-volkswagen-beetle" alt="">
+        </div>
+    </div>
+</section>
+
+<!--Контейнер за контактите-->
+<section class="contacts" id="contacts">
+
+    <div class="heading">
+        <span> Contact Us</span>
+        <h2>Available Always</h2>
+        <p>Reach us via email or phone</p>
+    </div>
+<!--Контейнер за информация за контакти-->
+    <div class="contacts-container container">
+        <!--Първа кутийка за дилършип-->
+        <div class="box">
+            <img src="https://pictures.dealer.com/b/berkshirehathawayautomotive/1538/4fcaaea6679352fbe6fe6acc3ae2c577x.jpg" alt="">
+            <span>Dealership</span>
+            <h3> For any questions consider sending us an email</h3>
+            <p> dealership.vw.bulgaria@volkswagen.com</p>
+            <a href="#" class="contacts-btn" onclick="openVolkswagenBG()">More info<i class='bx bx-right-arrow-alt'></i></a>
+
+        </div>
+<!--Втора кутийка за сервиз-->
+        <div class="box">
+            <img src="https://www.dura.co.uk/fr/images/our-works/volkswagen/battersea/VW_Battersea_02.jpg" alt="">
+            <span>Garage</span>
+            <h3> For garage appointments</h3>
+            <p> workshop.vw.bulgaria@volkswagen.com</p>
+            <a href="#" class="contacts-btn" onclick="openVolkswagenBG()">More info<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+            <!--Трета кутийка за шоуруум-->
+            <div class="box">
+                <img src="https://retaildesignblog.net/wp-content/uploads/2017/08/Volkswagen-showroom-by-Dalziel-and-Pow-Bullring-UK.jpg" alt="">
+                <span>Showroom</span>
+                <h3> For any questions consider sending us an email!</h3>
+                <p> showroom.vw.bulgaria@volkswagen.com</p>
+                <a href="#" class="contacts-btn" onclick="openVolkswagenBG()">More info<i class='bx bx-right-arrow-alt'></i></a>
+
+            </div>
+        </div>
+</section>
+<!--Фуутъра -->
+<section class="footer">
+    <div class="footer-container container">
+        <div class="footer-box">
+            <a href="#" class = "logo">Volkswagen<span> Das Auto</span></a>
+            <div class="social">
+                <a href = "#" onclick="openFB()"><i  class='bx bxl-facebook'></i></a>
+                <a href = "#" onclick="openInsta()"><i  class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Legal</h3>
+            <a href="#" onclick="openPrivacy()">Privacy</a>
+            <a href="#" onclick="openCookies()">Refund Policy</a>
+            <a href="#" onclick="openRefund()" >Cookie Policy</a>
+
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p> United States</p>
+            <p> Bulgaria</p>
+            <p> Germany</p>
+
+        </div>
+    </div>
+</section>
+<!--слагаме copyrights -->
+<div class="copyrights">
+    <p>&#169; Volkswagen all rights reserved IV</p>
+</div>
+<script src ="scrpit.js"></script>
+
+</body>
+
+</html>
